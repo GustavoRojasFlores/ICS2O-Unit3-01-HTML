@@ -1,3 +1,4 @@
+ignore: ["custom-elements", "default-namespace"]
 body {
   background-color: rgb(9, 93, 121);
 }
@@ -10,7 +11,7 @@ h1 {
 }
 
 p {
-  font-family: verdana;
+  font-family: verdana, sans-serif;
   font-size: 20px;
   color: rgb(37, 187, 69);
 }
@@ -21,5 +22,5 @@ p {
 }
 
 wingdings {
-  font-family: CustomFont;
+  font-family: CustomFont, sans-serif;
 }
